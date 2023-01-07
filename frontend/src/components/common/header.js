@@ -19,7 +19,6 @@ function AppHeader() {
     <div className="container-fluid">
       <div className="header">
         <div className="logo">
-          {/* <i className="fas fa-bolt"></i> */}
           <span
             style={{ fontSize: "1.5rem", fontWeight: "500", color: "black" }}
           >
@@ -35,6 +34,7 @@ function AppHeader() {
             <Link href="#works" title="How it works" />
             <Link href="#faq" title="FAQ" />
             <Link href="#contact" title="Contact" />
+            <Link href="/adminlogin" title="Admin" />
           </Anchor>
         </div>
         <div className="mobileVisible">
