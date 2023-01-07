@@ -69,7 +69,7 @@ function AppContact() {
       return;
     }
     const response = await sendRequest(
-      "http://localhost:5005/users/details",
+      "https://advisorywebsite.onrender.com/users/details",
       "POST",
       JSON.stringify({
         name: nameValue,

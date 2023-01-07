@@ -12,7 +12,7 @@ function AppFaq() {
       <div className="container-fluid">
         <div className="titleHolder">
           <h2>Frequently Asked Questions</h2>
-          <p>Familiar Questions?</p>
+          <p>Familiar Questions?</p>-
         </div>
         <Collapse defaultActiveKey={["1"]}>
           <Panel header="Who are these Training Course for?" key="1">

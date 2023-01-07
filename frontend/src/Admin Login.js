@@ -55,7 +55,7 @@ const AdminLogin = () => {
       return;
     }
     const response = await sendRequest(
-      "http://localhost:5005/users/adminlogin",
+      "https://advisorywebsite.onrender.com/users/adminlogin",
       "POST",
       JSON.stringify({
         email: nameValue,
