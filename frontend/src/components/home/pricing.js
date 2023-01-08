@@ -7,7 +7,7 @@ const data = [
     title: "Traders & investors",
     content: [
       {
-        price: "₹2400",
+        price: "₹1800",
         space: "1 GB of space",
         user: "1 user",
         support:
@@ -17,34 +17,34 @@ const data = [
       },
     ],
   },
-  {
-    title: "Business and Entrepreneur",
-    content: [
-      {
-        price: "₹2100",
-        space: "5 GB of space",
-        user: "5 users",
-        support:
-          "In this course, various methods to used by internet marketer and affiliate marketer are taught to make you generate quality leads organically and make money online.",
-        backup: "About the course",
-        access: "Access from anywhere",
-      },
-    ],
-  },
-  {
-    title: "Professionals and sales",
-    content: [
-      {
-        price: "₹1800",
-        space: "Unlimited space",
-        user: "15 users",
-        support:
-          "In this course, various methods to used by internet marketer and affiliate marketer are taught to make you generate quality leads organically and make money online.",
-        backup: "About the course",
-        access: "Access from anywhere",
-      },
-    ],
-  },
+  // {
+  //   title: "Business and Entrepreneur",
+  //   content: [
+  //     {
+  //       price: "₹2100",
+  //       space: "5 GB of space",
+  //       user: "5 users",
+  //       support:
+  //         "In this course, various methods to used by internet marketer and affiliate marketer are taught to make you generate quality leads organically and make money online.",
+  //       backup: "About the course",
+  //       access: "Access from anywhere",
+  //     },
+  //   ],
+  // },
+  // {
+  //   title: "Professionals and sales",
+  //   content: [
+  //     {
+  //       price: "₹1800",
+  //       space: "Unlimited space",
+  //       user: "15 users",
+  //       support:
+  //         "In this course, various methods to used by internet marketer and affiliate marketer are taught to make you generate quality leads organically and make money online.",
+  //       backup: "About the course",
+  //       access: "Access from anywhere",
+  //     },
+  //   ],
+  // },
 ];
 
 function AppPricing() {
@@ -59,11 +59,11 @@ function AppPricing() {
             gutter: 16,
             xs: 1,
             sm: 1,
-            md: 3,
-            lg: 3,
-            xl: 3,
-            xxl: 3,
-          }}
+            md: 1,
+            lg: 1,
+            xl: 1,
+            xxl: 1,
+          }} //change here if list increases
           dataSource={data}
           renderItem={(item) => (
             <>
@@ -76,7 +76,7 @@ function AppPricing() {
                   <p>{item.content[0].backup}</p>
                   <p>{item.content[0].access}</p>
                   <Button type="primary" size="large">
-                    <i className="fab fa-telegram-plane"></i> Get Started
+                    paytm - 9642622380
                   </Button>
                 </Card>
               </List.Item>
