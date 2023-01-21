@@ -1,6 +1,7 @@
 import React from "react";
 import "../../App.css";
 import { List, Card, Button } from "antd";
+import image6 from "../../assets/images/qr.png";
 
 const data = [
   {
@@ -76,8 +77,9 @@ function AppPricing() {
                   <p>{item.content[0].backup}</p>
                   <p>{item.content[0].access}</p>
                   <Button type="primary" size="large">
-                    paytm - 9642622380
+                    Paytm - 9642622380
                   </Button>
+                  <img src={image6} style={{ height: "5rem" }}></img>
                 </Card>
               </List.Item>
             </>
